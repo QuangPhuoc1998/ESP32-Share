@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#colorWheel {
+  border-radius: 50%;
+  cursor: crosshair;
+  margin-top: 10px;
+}
+
+#colorPreview {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto 0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
