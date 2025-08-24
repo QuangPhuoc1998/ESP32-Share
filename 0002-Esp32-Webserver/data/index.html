@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ESP32 WebServer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ESP32 WebServer</h1>
+
+  <div class="control-row">
+    <label class="label-text">Relay 1</label>
+    <label class="switch">
+      <input type="checkbox" data-led="1" onchange="toggleLED(this)">
+      <span class="slider"></span>
+    </label>
+  </div>
+
+  <div class="control-row">
+    <label class="label-text">Relay 2</label>
+    <label class="switch">
+      <input type="checkbox" data-led="2" onchange="toggleLED(this)">
+      <span class="slider"></span>
+    </label>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
