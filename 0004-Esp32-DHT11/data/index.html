@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESP32 Sensor Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📊 ESP32 Sensor Dashboard</h1>
+
+  <div class="card">
+    <div class="dashboard">
+      <div class="gauge">
+        <canvas id="tempGauge" width="200" height="200"></canvas>
+        <p class="label temp">🌡️ Temperature: <span id="tempValue">--</span> °C</p>
+      </div>
+      <div class="gauge">
+        <canvas id="humiGauge" width="200" height="200"></canvas>
+        <p class="label humi">💧 Humidity: <span id="humiValue">--</span> %</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
