@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESP32 Servo Controller</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>⚙️ ESP32 Servo Controller</h1>
+
+  <div class="card">
+    <div class="controller">
+      <label for="servoSlider">Servo Angle:</label>
+      <input type="range" id="servoSlider" min="0" max="90" value="45">
+      <p class="angle-display">Current Angle: <span id="angleValue">45</span>°</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
